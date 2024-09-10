@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Student Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#blog"><i class="fas fa-blog"></i> Blog</a></li>
+                <li><a href="#certification"><i class="fas fa-certificate"></i> Certification</a></li>
+                <li><a href="#roadmap"><i class="fas fa-map"></i> Roadmap</a></li>
+                <li><a href="#resources"><i class="fas fa-link"></i> Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Cybersecurity Student Hub</h1>
+            <p>Your comprehensive resource for all things cybersecurity</p>
+            <div class="cta-buttons">
+                <a href="#blog" class="cta-button"><i class="fas fa-book-reader"></i> Read Blog</a>
+                <a href="#roadmap" class="cta-button"><i class="fas fa-route"></i> Explore Roadmaps</a>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Latest in Cybersecurity</h2>
+            <div id="blog-posts"></div>
+        </section>
+
+        <section id="certification">
+            <h2>Cybersecurity Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <h3>CEH (Certified Ethical Hacker)</h3>
+                    <p>Learn to think like a hacker and protect against cyber threats.</p>
+                    <a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/" target="_blank">Learn More</a>
+                </div>
+                <div class="cert-card">
+                    <h3>CISSP (Certified Information Systems Security Professional)</h3>
+                    <p>Advanced certification for IT security professionals.</p>
+                    <a href="https://www.isc2.org/Certifications/CISSP" target="_blank">Learn More</a>
+                </div>
+                <div class="cert-card">
+                    <h3>CompTIA Security+</h3>
+                    <p>Fundamental certification for IT security.</p>
+                    <a href="https://www.comptia.org/certifications/security" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap">
+            <h2>Cybersecurity Roadmaps</h2>
+            <div class="roadmap-container">
+                <div class="roadmap" id="blue-team-roadmap">
+                    <h3>Blue Team (Defensive Security)</h3>
+                    <!-- Blue Team roadmap steps will be dynamically added here -->
+                </div>
+                <div class="roadmap" id="red-team-roadmap">
+                    <h3>Red Team (Offensive Security)</h3>
+                    <!-- Red Team roadmap steps will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>Essential Cybersecurity Resources</h2>
+            <ul class="resource-list">
+                <li><a href="https://www.hackthebox.eu/" target="_blank">Hack The Box</a></li>
+                <li><a href="https://tryhackme.com/" target="_blank">TryHackMe</a></li>
+                <li><a href="https://www.vulnhub.com/" target="_blank">VulnHub</a></li>
+                <li><a href="https://owasp.org/" target="_blank">OWASP</a></li>
+                <li><a href="https://www.sans.org/" target="_blank">SANS Institute</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cybersecurity Student Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
